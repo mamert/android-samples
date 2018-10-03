@@ -18,6 +18,8 @@
     <string-array name="titles_array">
         <item>Create an empty file</item>
         <item>Create a file</item>
+        <item>Create a file (Thread)</item>
+        <item>Create a file (Executor)</item>
         <item>Create a folder</item>
         <item>Create a file in a folder</item>
         <item>Create a folder in a folder</item>

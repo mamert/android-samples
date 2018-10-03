@@ -30,7 +30,9 @@ import com.google.android.gms.drive.sample.demo.events.SubscribeChangeEventsForF
  */
 public class HomeActivity extends Activity {
     private final Class[] sActivities = new Class[] {CreateEmptyFileActivity.class,
-            CreateFileActivity.class, CreateFolderActivity.class, CreateFileInFolderActivity.class,
+            CreateFileActivity.class, CreateFileWithThreadWrappingActivity.class,
+            CreateFileWithExecutorThreadingActivity.class,
+            CreateFolderActivity.class, CreateFileInFolderActivity.class,
             CreateFolderInFolderActivity.class, CreateFileInAppFolderActivity.class,
             CreateFileWithCreatorActivity.class, RetrieveMetadataActivity.class,
             RetrieveContentsActivity.class, RetrieveContentsWithProgressDialogActivity.class,
